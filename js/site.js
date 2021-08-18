@@ -36,7 +36,7 @@ function buildChart() {
         opitons: {
             title: {
                 display: true,
-                text: 'Lifetime Totals for Loan',
+                text: 'Monthly Totals for Loan',
                 fontSize: 25
             },
             legend: {

@@ -43,7 +43,7 @@ footer .social>a{
 
 footer .social>a:hover{
     opacity: 0.9;
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .bsicon{
@@ -105,4 +105,9 @@ main>.container {
     left: 0;
     bottom: 0;
     width: 100%;
+}
+
+.luckyGuy{
+    font-family: 'luckiest guy';
+    font-size: 2rem;
 }
