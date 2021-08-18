@@ -1,24 +1,35 @@
 :root{
-    --primary-color: rgba(145, 14, 138, 0.774);
-    --secondary-color: rgb(255, 168, 97);
-    --dark-color: rgba(71, 0, 88, 0.678);
-    --white-color: #e7f7f7;
+    --primary-color: rgba(7, 43, 250, 0.774);
+    --secondary-color: rgb(238, 28, 0);
+    --dark-color: rgba(33, 21, 138, 0.678);
+    --white-color: #fdc3a8;
 }
 
 body{
     color: var(--dark-color);
+    font-family: 'Open Sans';
 }
 
 nav{
-    background-color: var(--dark-color);
+    background-color: var(--secondary-color);
+    font-family: 'Luckiest Guy';
 }
 
 footer{
-    background-color: var(--dark-color);
+    background-color: var(--secondary-color);
+    font-family: 'Luckiest Guy';
 }
 
 h1,h2,h3,h4,h5,h6{
     color: var(--primary-color);
+}
+
+h1,h2{
+    font-family: 'Luckiest Guy';
+}
+
+h3,h4,h5,h6{
+    font-family: 'Open Sans';
 }
 
 footer{
@@ -36,11 +47,11 @@ footer .social>a:hover{
 }
 
 .bsicon{
-    color: purple;
+    color:red;
 }
 
 .jsicon{
-    color: rgb(226,211,4);
+    color: blue;
 }
 
 .html5icon{
@@ -48,7 +59,7 @@ footer .social>a:hover{
 }
 
 .css3icon{
-    color: rgb(11,82,214);
+    color:blueviolet;
 }
 
 .checklist >li i{
@@ -65,6 +76,28 @@ code[class*="language-"],
 main>.container {
     padding: 60px 15px 0;
 }
+
+.btnCustom{
+    font-family: 'Luckiest Guy';
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.btnCustom:hover{
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.calcBox{
+    background-color: lightgrey;
+}
+
+.customTable{
+
+    font-family: 'luckiest guy';
+    font-weight: 200;
+}
+
 
 
 .sticky-nav {
